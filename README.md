@@ -62,7 +62,7 @@ Flutter adalah sebuah framework yang memungkinkan pengembang untuk membuat aplik
 FastAPI adalah sebuah framework Python yang dirancang untuk mempermudah pengembang dalam pembuatan REST API dengan menggunakan bahasa pemrograman Python. Pemilihan Python sebagai bahasa pemrograman untuk REST API bertujuan untuk memudahkan integrasi dengan model Face Recognition yang digunakan dalam proyek ini.
 - Sensor : CCTV
 - Responder : Smartphone yang terpasang Telegram atau WhatsApp dianggap sebagai perangkat yang berperan sebagai responder. Perangkat ini memberikan respon pesan untuk orang tua / wali mengenai laporan kehadiran yang dihasilkan oleh proses face recognition.
-# User Experience (UX) Design
+# 🖼User Experience (UX) Design
 <div><img src="https://lh7-us.googleusercontent.com/7flPxfA6j1E_B62ZsNZtKbSxsIaCNdhGsXIClhT1FXhdyvUCh2ynkyqvBYGfO4MH3nlbJwCzEyGtNEr2FHRHZ1ZMYEoVo2UFi1gGu8Azy84FQjUaun7G3ByP1GI0UFtCOaZDnSRJtMTa_7MovFCx2qg" alt="drawing" width=700 /></div>
 
 https://www.figma.com/file/NAijilNHuOfDDzhSQ0C7PJ/ubigong?type=design&node-id=0%3A1&mode=design&t=wFeALLDqftTj12Qh-1
