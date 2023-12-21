@@ -32,20 +32,14 @@ Dengan pengintegrasian teknologi Face Recognition dalam pencatatan kehadiran sis
 |Sistem|Menyajikan interface yang menarik untuk client android app|Bisa memaksimalkan kenyamanan pengguna|⭐
 # 📚Metode dan Algoritma
 - Sensor
-  - Face recognition : MTCNN
+  - Face detection : Fast MTCNN
+  - Face recognition : VGG Face
 - Kamera : CCTV
 - Responder
   - Telegram bot
 - Mobile software development
   - Agile
-# 🌲Struktur Data
-<div>
-<img src="https://lh7-us.googleusercontent.com/jDTReG4dHdIvGCkh4822mt0ZMvfKvu40MwyJ2TVcrbwcrpJDNNaiGe0pPz8wFjv2JmFTvQrWyBjPdUL9ZR_cbW9_2Gv2cWM3bWT17nGfHeL7NEkt8hjKFvmC-qltA4Bu5Ilib1IsHuOKJesjci7Mpiw" alt="drawing" width="700"/>
-</div>
 
-1. Image dicapture
-2. Dicatat di table attendance siapa hadir siapa tidak
-3. Dibuat laporan per mahasiswa di report_message, untuk nanti dikirim message nya ke ortu / wali
 # 🏗Arsitektur Sistem
 <div><img src="https://lh7-us.googleusercontent.com/kvzAZwx2C_YgAwKeei665ho8HpahgEfLRElUEEgElKwaervUP11s6XR_0LAVNaJANZ-yuyZ1DGF7-26KbZGLLPw7omOdxgE2E2_vEtWgELs0RIZDlIKMLhnK50XuBodAz4qp5kYDx0tor-bZnZZp-fM" alt="drawing" width="700" /></div>
 
@@ -58,17 +52,9 @@ Aplikasi client mobile “FaceRoom CCTV” nantinya bisa dipakai sebagai peranta
 - Software Development
   - Mobile development : Flutter untuk Android
 Flutter adalah sebuah framework yang memungkinkan pengembang untuk membuat aplikasi lintas platform (cross-platform) dengan lebih mudah, termasuk aplikasi untuk Android. Karena Android adalah platform yang sangat luas digunakan saat ini, diharapkan bahwa FaceRoom CCTV dapat menjangkau sebagian besar masyarakat.
-  - Backend development : FastAPI
-FastAPI adalah sebuah framework Python yang dirancang untuk mempermudah pengembang dalam pembuatan REST API dengan menggunakan bahasa pemrograman Python. Pemilihan Python sebagai bahasa pemrograman untuk REST API bertujuan untuk memudahkan integrasi dengan model Face Recognition yang digunakan dalam proyek ini.
+  - Backend development : Flask
+Flask adalah sebuah framework Python yang dirancang untuk mempermudah pengembang dalam pembuatan REST API dengan menggunakan bahasa pemrograman Python. Pemilihan Python sebagai bahasa pemrograman untuk REST API bertujuan untuk memudahkan pemrosesan gambar dengan model Face Recognition yang digunakan dalam proyek ini.
 - Sensor : CCTV
 - Responder : Smartphone yang terpasang Telegram atau WhatsApp dianggap sebagai perangkat yang berperan sebagai responder. Perangkat ini memberikan respon pesan untuk orang tua / wali mengenai laporan kehadiran yang dihasilkan oleh proses face recognition.
-# 🖼User Experience (UX) Design
-<div><img src="https://lh7-us.googleusercontent.com/7flPxfA6j1E_B62ZsNZtKbSxsIaCNdhGsXIClhT1FXhdyvUCh2ynkyqvBYGfO4MH3nlbJwCzEyGtNEr2FHRHZ1ZMYEoVo2UFi1gGu8Azy84FQjUaun7G3ByP1GI0UFtCOaZDnSRJtMTa_7MovFCx2qg" alt="drawing" width=700 /></div>
 
 https://www.figma.com/file/NAijilNHuOfDDzhSQ0C7PJ/ubigong?type=design&node-id=0%3A1&mode=design&t=wFeALLDqftTj12Qh-1
-
-# Demo fitur running client app di background untuk keperluan schedule penangkapan gambar dan pengiriman ke server
-<div>
-  <img src="https://github.com/tegar-anggana/faceroom_cctv/assets/80917799/2d5f157c-291c-4a9e-bb72-5ef06253515e" alt="" width=300 />
-  <img src="https://github.com/tegar-anggana/faceroom_cctv/assets/80917799/54d4b5da-68e6-4afe-bdd8-0c924a318611" alt="" width=300 />
-</div>
