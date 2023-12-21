@@ -1,3 +1,7 @@
+- client repo : https://github.com/tegar-anggana/faceroom_flutter
+- backend repo : https://github.com/tegar-anggana/faceroom_flask
+- mediamtx : https://github.com/tegar-anggana/faceroom_flask/blob/main/mediamtx_faceroom.zip
+
 # 📖Intro
 Artikel ini membahas pembangunan teknologi Ubiquitous Computing dengan tema Penggunaan Teknologi Face Recognition dalam Mencatat Kehadiran Siswa melalui CCTV.
 # 💡Latar Belakang
